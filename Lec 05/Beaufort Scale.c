@@ -11,4 +11,4 @@ int main ()
 	else if (speed <= 63) printf("Storm");
 	else printf("Hurricane");
 	return 0;
-}
+} 
