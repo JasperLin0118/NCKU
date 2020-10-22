@@ -10,6 +10,6 @@ int main ()
 		if(i%2 == 0) sum += n[i]-48;
 		else sum += (n[i]-48)*3;
 	}
-	printf("%d", (sum-1/10+1)*10-sum );
+	printf("%d", ((sum-1)/10+1)*10-sum );
 	return 0;
 }
