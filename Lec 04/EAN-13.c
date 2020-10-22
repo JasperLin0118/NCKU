@@ -6,7 +6,7 @@ int main ()
 	char n[12];
 	for(i=0;i < 12;i++) 
 	{
-		scanf("%c",&n[i]);
+		scanf(" %c",&n[i]);
 		if(i%2 == 0) sum += n[i]-48;
 		else sum += (n[i]-48)*3;
 	}
