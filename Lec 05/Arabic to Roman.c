@@ -2,7 +2,7 @@
 
 int main ()
 {
-	char rome[4][10][4] =
+	char rome[4][10][5] =
 	{
 		{"","I","II","III","IV","V","VI","VII","VIII","IX"},		
 		{"","X","XX","XXX","XL","L","LX","LXX","LXXX","XC"},
