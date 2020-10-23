@@ -11,7 +11,7 @@ int main ()
 	for(i=1;i <= day[month-1];i++)
 	{
 		printf("%3d ",i);
-		if( (first+i+1)%7 == 0 && i != day[month-1]) printf("\n");
+		if( (first+i)%7 == 0 && i != day[month-1]) printf("\n");
 	}
 	return 0;
 }
