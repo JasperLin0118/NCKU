@@ -7,8 +7,8 @@ int main ()
 	age = 2020-year+1;
 	float bmi =(float) ((int)( (float)weight/height/height*1000000+5 )/10)/10 ;
 	printf("Age = %d\n"
-	       "Height = %d\n"
-	       "Weight = %d\n"
+	       "Height = %dcm\n"
+	       "Weight = %dkg\n"
 	       "BMI = %.1f\n", age, height, weight, bmi);
 
 	if(age>36 || age < 19)
