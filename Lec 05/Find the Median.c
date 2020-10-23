@@ -2,10 +2,11 @@
 
 int main ()
 {
-	int a,b,c;
+	int a,b,c,med;
 	scanf("%d %d %d",&a,%b,%c);
-	if(a>=b && a>=c) printf("%d",b>c ? b : c);
-	if(b>=a && b>=c) printf("%d",a>c ? a : c);
-	if(c>=a && c>=b) printf("%d",a>b ? a : b);
+	med = a;
+	if( (a<=b && b<=c) || (c<=b && b<=a) ) med = b;
+	if( (a<=c && c<=b) || (b<=c && c<=a) ) med = c;
+	printf("%d", med);
 	return 0;
 }
