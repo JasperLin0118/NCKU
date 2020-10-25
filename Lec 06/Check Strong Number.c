@@ -18,7 +18,7 @@ int main ()
 
 int factorial(int num)
 {
-	int i,sum=0;
+	int i,sum=1;
 	for(i=1;i <= num;i++) sum *= i;
 	return sum;
 }
