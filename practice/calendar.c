@@ -41,7 +41,7 @@ int first(int year,int month)							//To print the calendar we need to know the 
 	{
 		for(i=2020;i <= year;i++)
 		{
-			y(year);						//Know that year's february is 28 or 29
+			y(i);							//Know that year's february is 28 or 29
 			month = (i==year) ? mon-1 : 12 ;
 			for(j=0;j < month ;j++) first += day[j];
 		}
@@ -51,7 +51,7 @@ int first(int year,int month)							//To print the calendar we need to know the 
 	{
 		for(i=2020-1;i >= year;i--)
                 {       
-			y(year);						//Know that year's february is 28 or 29
+			y(i);							//Know that year's february is 28 or 29
 			month = (i==year) ? mon-1 : 0 ;
                         for(j=11;j >= month ;j--) first += day[j];
 		}  
