@@ -4,7 +4,7 @@ int factorial(int);
 
 int main ()
 {
-	int number,num,sum,i;
+	int number,num,sum=0;
 	scanf("%d",&number);
 	num = number;
 	while(num != 0)
@@ -13,12 +13,12 @@ int main ()
 		num /= 10;
 	}
 	if(number == sum) printf("%d is a strong number.",number);
-	else printf("%d is not a strong number",number);
+	else printf("%d is not a strong number.",number);
 }
 
 int factorial(int num)
 {
-	int i,sum;
+	int i,sum=0;
 	for(i=1;i <= num;i++) sum *= i;
 	return sum;
 }
