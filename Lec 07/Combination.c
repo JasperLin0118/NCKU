@@ -12,7 +12,7 @@ int main ()
 
 long double f(long double num)
 {
-	long double sum;
+	long double sum=1;
 	for(int i=1;i <= num;i++) sum *= i;
 	return sum;
 }	

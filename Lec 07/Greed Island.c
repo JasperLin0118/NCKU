@@ -5,6 +5,7 @@ int main ()
 	char ch;
 	for(int i=0;i < 20;i++)
 	{
+		scanf("%c", &ch);
 		switch(ch)
 		{
 			case 'A':
