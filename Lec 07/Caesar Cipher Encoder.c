@@ -5,7 +5,7 @@ int main ()
 	int move;
 	char ch;
 
-	scanf("%d %c", &move, %ch);
+	scanf("%d %c", &move, &ch);
 	move = (move<0) ? move%26+26 : move%26;
 
 	while( scanf("%c", &ch) != EOF ) 
