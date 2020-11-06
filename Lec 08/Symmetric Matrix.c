@@ -10,8 +10,8 @@ int main ()
 		for(j=0;j < n;j++) scanf("%d", &m[i][j]);
 
 	for(i=0;i < n;i++)
-		for(j=i;j < n;i++) 
-			if(i!=j && m[i][j]!=m[j][i]) stop=1;
+		for(j=i+1;j < n;j++) 
+			if(m[i][j]!=m[j][i]) stop=1;
 
 	if(stop) printf("No\n");
 	else printf("Yes\n");

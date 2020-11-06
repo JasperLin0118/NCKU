@@ -9,7 +9,7 @@ int main()
 	for(i=31;i >= 0 ;i--)
 	{
 		printf("%d ", c[i] = a[i]^b[i]^tmp);
-		tmp = ( tmp&a[i]^b[i] || a[i]&b[i] );
+		tmp = ( a[i]&b[i] || (a[i]^b[i])&tmp );
 	}
 
 	return 0;

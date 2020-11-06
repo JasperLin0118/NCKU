@@ -7,7 +7,7 @@ int main()
 
 	int s[maxN];
 	while(i < maxN) scanf("%c", &s[i++]);
-	while(i >= 0) printf("%c", s[--i]);
+	while(i > 0) printf("%c", s[--i]);
 
 	return 0;
 }
