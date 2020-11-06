@@ -8,7 +8,7 @@ int main()
 
 	for(i=31;i >= 0 ;i--)
 	{
-		c[i] = a[i]^b[i]^tmp
+		c[i] = a[i]^b[i]^tmp;
 		tmp = ( a[i]&b[i] || (a[i]^b[i])&tmp );
 	}
 
