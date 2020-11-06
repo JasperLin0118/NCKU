@@ -8,9 +8,11 @@ int main()
 
 	for(i=31;i >= 0 ;i--)
 	{
-		printf("%d ", c[i] = a[i]^b[i]^tmp);
+		c[i] = a[i]^b[i]^tmp
 		tmp = ( a[i]&b[i] || (a[i]^b[i])&tmp );
 	}
+
+	for(i=0;i < 32;i++) printf("%d ", c[i]);
 
 	return 0;
 }	
