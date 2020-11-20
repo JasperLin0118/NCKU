@@ -13,7 +13,7 @@ int main ()
 	int x1, x2, n;
 	while( ~scanf("%d %d %d", &x1, &x2, &n) ) 
 	{
-		if(n >= 3) printf("%d\n", f(x1, x2, n);
+		if(n >= 3) printf("%d\n", f(x1, x2, n));
 	}	
 
 	return 0;
