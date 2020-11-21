@@ -16,7 +16,7 @@ int main()
 
 	qsort(m,a+b,sizeof(m[0]),compare);
 
-	for(int i=0;i<a+b;i++) printf("%d", m[i]);
+	for(int i=0;i<a+b;i++) printf("%d ", m[i]);
 
 	return 0;
 }
