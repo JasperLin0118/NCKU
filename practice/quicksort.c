@@ -11,13 +11,17 @@ void quick(int a[], int left, int right)
 	if(right > left)
 	{
 		int pivot=left, i=pivot+1, j=right;
-		while(j >= i)
+		while(j > i)
 		{
-			while(a[i] < a[pivot]) i++;
-			while(a[j] > a[pivot]) j--;
-			if(j >= i) swap(a,i,j);
-		}
+			while(i<=j && a[i]<a[pivot]) i++;
+			while(a[j]>a[pivot]) j--;
+			if(j > i) swap(a,i,j);
+		}		
 	        if(i >= j) swap(a,pivot,j);
+
+		for(int k=1;k<=right;k++) printf("%d ", a[k]);
+     		puts("");
+
 
 		quick(a,j+1,right);
 		quick(a,left,j-1);

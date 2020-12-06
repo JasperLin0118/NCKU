@@ -190,4 +190,4 @@ int main()
 		printf("%c ", print[i]);
 
 	return 0;
-}
+} 
