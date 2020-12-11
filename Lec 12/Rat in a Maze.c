@@ -27,4 +27,4 @@ bool visit(char maze[][n], int route[][n], int originX, int originY)
 
 	return false;
 }
-
+/*	水水水~~    */
